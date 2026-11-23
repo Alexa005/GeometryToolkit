@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Lab1">
+      <UniqueIdentifier>{f0775850-87ed-4840-b3dd-496d9e349a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lab2">
+      <UniqueIdentifier>{62ad7807-e3bc-4e9e-9439-725a05ab98e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lab3">
+      <UniqueIdentifier>{d5e5f2ea-4e8a-42eb-bdd9-644e1c4425c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lab4">
+      <UniqueIdentifier>{3629d6ff-9008-4246-bae1-c0f057b346d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Geometry\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab1\CollinerarityCheck.cpp">
+      <Filter>Lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab1\OrientationCheck.cpp">
+      <Filter>Lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab1\ConvexCheck.cpp">
+      <Filter>Lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab1\ThreePointPositionCheck.cpp">
+      <Filter>Lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab1\LineIntersection.cpp">
+      <Filter>Lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab2\SegmentIntersectionCheck.cpp">
+      <Filter>Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab2\MultipleSegmentIntersection.cpp">
+      <Filter>Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab2\PolygonIntersectionCheck.cpp">
+      <Filter>Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab2\PolygonSimple.cpp">
+      <Filter>Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab2\SegmentIntersectionPoint.cpp">
+      <Filter>Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonIntersection.cpp">
+      <Filter>Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="PointInAngleCheck.cpp">
+      <Filter>Lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="PointInPolygonCheck.cpp">
+      <Filter>Lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="RectanglePointCouting.cpp">
+      <Filter>Lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLocationCheck.cpp">
+      <Filter>Lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="KDTreeSearch.cpp">
+      <Filter>Lab4</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
